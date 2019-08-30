@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Chartjs</title>
+</head>
+
+<body>
+    <main class="container">
+        <div>
+            <!-- Canvas dónde se dibuja la gráfica -->
+            <canvas id="prioridades" width="1000" height="500">Su navegador no puede visualizar la gráfica</canvas>
+        </div>
+    </main>
+</body>
+
+<footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+    <script>
+        Chart.defaults.global.defaultFontSize = 18;
+        var ctx = document.getElementById('prioridades');
+        // Bar chart
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Videojuegos', 'Netflix', 'Comer pizza', 'Comer sano', 'Dormir'],
+                datasets: [{
+                        label: "Mis Prioridades",
+                        data: [10, 9, 7, 3, 2],
+                        backgroundColor: "rgba(255,150,0,0.25)",
+                        borderColor: "rgba(255,150,0,0.75)",
+                        borderWidth: 1
+                    },{
+                        label: "Prioridades de Vega",
+                        data: [0, 1, 9, 3, 10],
+                        backgroundColor: "rgba(0,0,255,0.25)",
+                        borderColor: "rgba(0,0,255,0.75)",
+                        borderWidth: 1
+                    }
+                ]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks:
+                        {
+                            beginAtZero: true
+                        }
+                    }]
+                },
+                title: {
+                    display: true,
+                    text: 'Prioridades'
+                }
+            }
+        });
+    </script>
+</footer>
+
+</html>
