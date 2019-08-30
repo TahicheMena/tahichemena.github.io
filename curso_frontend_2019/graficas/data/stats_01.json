@@ -1,0 +1,21 @@
+{
+    "name": "Momentos de ansiedad",
+    "momentos": [
+        {
+            "momento": "Bateria 5%",
+            "ansiedad": 7
+        },
+        {
+            "momento": "Piña en la pizza",
+            "ansiedad": 10
+        },
+        {
+            "momento": "Ultimo trozo de papel higienico",
+            "ansiedad": 9
+        },
+        {
+            "momento": "Insomnio cuando tienes que madrugar",
+            "ansiedad": 6
+        }
+    ]
+}
