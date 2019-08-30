@@ -1,6 +1,6 @@
 {
-    "name": "Momentos de ansiedad",
-    "momentos": [
+    "title": "Momentos de ansiedad",
+    "data": [
         {
             "momento": "Bateria 5%",
             "ansiedad": 7
