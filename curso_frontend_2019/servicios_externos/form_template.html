@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="email_form.css">
+</head>
+<body>
+    <form id="contact_form" method="post">
+        <label>Email de contacto</label>
+        <input type="text" name="user_email" />
+        <label>Su nombre</label>
+        <input type="text" name="user_name" />
+        <label>Seleccione el curso al que quiera asistir</label>
+        <div>
+            <select name="curso">
+                <option>Todos</option>
+                <option>FrontEnd</option>
+                <option>BackEnd</option>
+                <option>API</option>
+            </select>
+        </div>
+        <label>Breve resumen de sus conocimientos previos</label>
+        <textarea name="conocimientos"></textarea>
+    
+        <script src="https://www.google.com/recaptcha/api.js"></script>
+        <div class="g-recaptcha" data-sitekey="6Le9kO8UAAAAAGAalDJuagDKAvpP0XERIw0aNZoP"></div>
+    
+        <br><br>
+        <button>
+            Enviar
+        </button>
+    </form>
+    
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_nYpedev3TpnKhZCmI6hcK");
+        })();
+    </script>
+    <script type="text/javascript" src="email_form.js"></script>
+</body>
+</html>
