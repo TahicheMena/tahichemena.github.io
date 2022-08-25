@@ -1,0 +1,88 @@
+{
+  "numTotalTestSuites": 4,
+  "numPassedTestSuites": 4,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 5,
+  "numPassedTests": 5,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1661453545163,
+  "success": true,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "QRLink"
+          ],
+          "fullName": " QRLink url",
+          "status": "passed",
+          "title": "url",
+          "duration": 47,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1661453546329,
+      "endTime": 1661453546376,
+      "status": "passed",
+      "message": "",
+      "name": "/home/tahiche/Escritorio/qr_frontend_challenge/src/components/__tests__/QRLink.spec.js"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "DoctorSelector"
+          ],
+          "fullName": " DoctorSelector Compruebo que se renderiza",
+          "status": "passed",
+          "title": "Compruebo que se renderiza",
+          "duration": 16,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "DoctorSelector"
+          ],
+          "fullName": " DoctorSelector updateCurrentDoctorId se comprueba que se emite un evento con el mensaje cuando no se selecciona un doctor",
+          "status": "passed",
+          "title": "updateCurrentDoctorId se comprueba que se emite un evento con el mensaje cuando no se selecciona un doctor",
+          "duration": 4,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "DoctorSelector"
+          ],
+          "fullName": " DoctorSelector updateCurrentDoctorId se comprueba que se emite un evento con el mensaje cuando el doctor no es válido",
+          "status": "passed",
+          "title": "updateCurrentDoctorId se comprueba que se emite un evento con el mensaje cuando el doctor no es válido",
+          "duration": 2,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "DoctorSelector"
+          ],
+          "fullName": " DoctorSelector updateCurrentDoctorId se comprueba que se emite un evento con el id del doctor seleccionado correctamente",
+          "status": "passed",
+          "title": "updateCurrentDoctorId se comprueba que se emite un evento con el id del doctor seleccionado correctamente",
+          "duration": 3,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1661453546332,
+      "endTime": 1661453546358,
+      "status": "passed",
+      "message": "",
+      "name": "/home/tahiche/Escritorio/qr_frontend_challenge/src/components/__tests__/DoctorSelector.spec.js"
+    }
+  ]
+}
